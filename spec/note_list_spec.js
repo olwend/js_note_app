@@ -9,6 +9,9 @@ function testNewNoteList(){
  if (returnArray() != "cat") {
     throw new Error("notelist content is incorrect");
     }
+  if (getNoteList() == '') {
+    throw new Error("notelist is empty");
+  }
 };
 
 

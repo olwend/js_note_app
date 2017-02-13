@@ -12,7 +12,12 @@
     console.log(notelist[0])
     return notelist[0];
   }
+
+  function getNoteList(){
+    return notelist;
+  }
   exports.addNoteList = addNoteList;
   exports.checkArray = checkArray;
   exports.returnArray = returnArray;
+  exports.getNoteList = getNoteList;
 })(this);
