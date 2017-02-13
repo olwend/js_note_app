@@ -5,16 +5,17 @@ console.log('hello');
 // }
 
 // Note.prototype.returnText = function(){
-// 	return this._text 
+// 	return this._text
 // }
 
 (function(exports) {
 	var text = "";
 	function addText(string){
-	return text = string
+	return text = string;
 	}
 	function returnText(){
-	return text;
+	console.log(text)
+  return text;
 	}
 	exports.returnText = returnText;
 	exports.addText = addText;
