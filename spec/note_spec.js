@@ -1,11 +1,10 @@
 console.log("test");
 
-function testNewNote(){
-  var note = new Note();
-  if (note.returnText() !== nil) {
+function testNewNote(string){
+	addText(string)
+    if (returnText() != string) {
     throw new Error("note is not initialized");
   }
 
 };
-
-testNewNote();
+testNewNote('Javascript is my favourite');
