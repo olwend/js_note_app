@@ -8,7 +8,7 @@ console.log('hello');
 // 	return this._text
 // }
 
-(function(exports) {
+(function(note) {
 	// var text = "";
 	function addText(string){
 	return text = string;
@@ -17,6 +17,6 @@ console.log('hello');
 	console.log(text)
   return text;
 	}
-	exports.returnText = returnText;
-	exports.addText = addText;
+	note.returnText = returnText;
+	note.addText = addText;
 })(this);
