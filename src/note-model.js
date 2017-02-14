@@ -9,7 +9,7 @@ console.log('hello');
 // }
 
 (function(exports) {
-	var text = "";
+	// var text = "";
 	function addText(string){
 	return text = string;
 	}
