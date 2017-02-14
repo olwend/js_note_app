@@ -1,5 +1,5 @@
 ### NOTES SINGLE PAGE WEB APP JAVASCRIPT
 
-![alt text][Diagram]
+![Notes app architecture][Diagram]
 
-[Diagram]: 
+[Diagram]: https://github.com/olwend/js_note_app/blob/day-two/lib/notes.png
