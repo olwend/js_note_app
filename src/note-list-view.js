@@ -12,6 +12,7 @@
 
     return ("<ul>" + output + "</ul>");
   }
+
   exports.NoteListView = NoteListView;
 
 })(this)
