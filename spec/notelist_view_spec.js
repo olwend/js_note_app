@@ -4,7 +4,7 @@ function testNotelistView(){
   addNoteList(first);
   addNoteList(second);
   console.log(returnHTMLString())
-  if (returnHTMLString().includes("Favourite food: pesto</div></li><li><div>Favourite drink: chianti") === false) {
+  if (returnHTMLString().includes("Favourite food: pesto</div></li><li><div>Favourite drink: chianti") == false) {
     throw new Error("list view is incomplete");
   }
 };

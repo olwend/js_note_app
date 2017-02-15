@@ -1,4 +1,5 @@
 (function(noteList) {
+  console.log(noteList)
   var notelist = [];
   function addNoteList(model){
     return notelist.push(model);
