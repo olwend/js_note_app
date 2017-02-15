@@ -22,7 +22,7 @@
   }
 
   function createURL(id){
-    return "<a href='http://localhost:8080#/notes/" + id + "'" + " >" + "</a>";
+    return "<a href='http://localhost:8080#notes/" + id + "'" + " >";
 
   }
 
