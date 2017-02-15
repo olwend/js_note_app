@@ -2,6 +2,7 @@
 
 	function NoteList() {
 		this._notes = [];
+
 	}
 
 	NoteList.prototype.getNotes = function() {
@@ -9,7 +10,7 @@
 	}
 
 	NoteList.prototype.addNote = function(note_content) {
-		this._notes.push(new Note(note_content))
+		this._notes.push(new Note(note_content, this._notes.length))
 	}
 
 	exports.NoteList = NoteList;

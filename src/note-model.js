@@ -1,7 +1,8 @@
 (function(exports) {
 
-	function Note(noteText) {
+	function Note(noteText, id) {
 		this._content = noteText;
+		this._id = id;
 	}
 
 	Note.prototype.getContent = function() {
