@@ -23,3 +23,17 @@
 
 	assert.isTrue(notelistview.display() === "<ul></ul>");
 })();
+
+(function() {
+
+  function stringFill(char, numofTimes) {
+    var s = '';
+    while (s.length < numofTimes) s += char;
+    return s;
+  }
+
+  notelist = new NoteList();
+  notelist.addNote(stringFill("i",30));
+  notelistview = new NoteListView(notelist);
+	assert.isTrue(notelistview.display() === "<ul><li>" + stringFill("i",20) + "</li></ul>");
+})();
