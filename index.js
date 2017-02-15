@@ -4,6 +4,8 @@ function init(){
   notecontroller = new NoteController(notelist);
   notelist.addNote("Favourite drink: Seltzer");
   notecontroller.displayNotes();
+
 }
+
 
 window.onload = init;
