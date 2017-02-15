@@ -4,9 +4,8 @@
 		this._content = noteText;
 	}
 
-
 	Note.prototype.getContent = function() {
-		return this._content;
+		return exclaim(this._content);
 	}
 
 	exports.Note = Note;

@@ -15,4 +15,3 @@
 	exports.NoteList = NoteList;
 
 })(this)
-

@@ -1,12 +1,9 @@
-// function init(){
-//   NoteController();
-// }
-//
-//
 
-// import * as note-controller from './src/note-controller'
-//
-// window.onload = NoteController;
+function init(){
+  notelist = new NoteList();
+  notecontroller = new NoteController(notelist);
+  notelist.addNote("Favourite drink: Seltzer");
+  notecontroller.displayNotes();
+}
 
-//var foo = "bar";
-// console.log(foo);
+window.onload = init;
