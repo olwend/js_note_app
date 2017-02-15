@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samjones1001/note.git"
+    "url": "git+https://github.com/thegooders/notes-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samjones1001/note/issues"
+    "url": "https://github.com/thegooders/notes-app/issues"
   },
-  "homepage": "https://github.com/samjones1001/note#readme"
+  "homepage": "https://github.com/thegooders/notes-app#readme"
 }
