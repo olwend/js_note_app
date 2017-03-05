@@ -1,11 +1,11 @@
 console.log("test");
 
-function testNewNote(){
-  var note = new Note();
-  if (note.returnText() !== nil) {
+function testNewNote(string){
+  addText(string);
+  //returnText();
+  if (returnText() != "earl grey") {
     throw new Error("note is not initialized");
   }
-
 };
 
-testNewNote();
+testNewNote("earl grey");
